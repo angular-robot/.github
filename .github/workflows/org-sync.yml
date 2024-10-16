@@ -13,7 +13,7 @@ jobs:
   org_file_sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: angular/dev-infra/github-actions/org-file-sync@b3019e5eca6def22bd4cbea2291d61464379100c
+      - uses: angular/dev-infra/github-actions/org-file-sync@a3d0749c4d64959e85843fbeb54507e830be0f44
         with:
           angular-robot-key: ${{ secrets.ANGULAR_ROBOT_PRIVATE_KEY }}
           repos: |
